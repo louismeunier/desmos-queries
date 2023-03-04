@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100vh;
+}
+
+#app {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100vh;
+}
+
+
+.cst-icon-copy-latex {
+  position: absolute;
+  top: 0;
+  right: 30px;
+  padding: 8px 7px 20px 20px;
+  z-index: 3;
+  opacity: 0.2;
+  cursor: pointer;
+  font-weight: 750;
+  color: black;
+  font-size: 80%;
+}
+
+.cst-icon-copy-latex:hover {
+  opacity: 0.5;
+}
