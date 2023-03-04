@@ -1,5 +1,4 @@
 <script lang="ts">
-  import "./calculator";
   import { onMount } from "svelte";
   
   onMount(() => {
@@ -8,8 +7,6 @@
 
     var searchParams = new URLSearchParams(window.location.search);
         for (var [key, value] of searchParams) {
-            // key doesn't really matter as long as they're distinct
-            // value must be valid latex
             calculator.setExpression({ id: key, latex: value });
         }
 
